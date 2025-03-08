@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Title */
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Timer */
+.timer {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5f6d;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 15px;
+    border: none;
+    background: #ff5f6d;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #ff9966;
+    transform: scale(1.05);
+}
+
+/* Session Counter */
+#session-count {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #444;
+}
